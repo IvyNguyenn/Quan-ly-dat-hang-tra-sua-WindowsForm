@@ -1,5 +1,5 @@
 # Quan-ly-dat-hang-tra-sua-WindowsForm
-
+Database management system: Oracle 12c
 Khi cài đặt:
 1. Thêm các file .dll để kết nối được với Oracle. Cụ thể tên 11 file là:
 - oci.dll                 1,270KB
@@ -18,4 +18,5 @@ Khi cài đặt:
 3. Thêm file Oracle.DataAccess.dll vào References
 4. Chạy file QuanLyQuanTraSua3.sql để: tạo bảng, thêm data, trigger, procedure, function 
 5. Chạy file QuanLyQuanTraSuaPhanQuyen.sql để phân quyền 
-Lưu ý là mỗi user trong file phân quyền là mỗi user trong oracle luôn 
+- Lưu ý là mỗi user trong file phân quyền là mỗi user trong oracle luôn 
+- Cần tạo một admin có username = ngochoang2, password = 12345 làm admin gốc
